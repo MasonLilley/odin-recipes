@@ -1,12 +1,18 @@
 div {
-
 }
 
 p {
-
 }
 
 li {
     font-family: "Times New Roman", sans-serif;
-    font-size: 50px;
+    font-size: 24px;
+}
+
+.ul .ol {
+    font-family:Tahoma, sans-serif
+}
+
+.ol {
+    font-size: 15px;
 }
