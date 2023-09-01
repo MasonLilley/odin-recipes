@@ -1,18 +1,87 @@
-div {
+html {
+    background-color: #F8F0E3;
 }
 
 p {
+    font-family: Tahoma, sand-serif;
 }
 
-li {
-    font-family: "Times New Roman", sans-serif;
-    font-size: 24px;
+ul, ol {
+    font-family:Tahoma, sans-serif;
 }
 
-.ul .ol {
-    font-family:Tahoma, sans-serif
+ul {
+    font-size: 25px;
 }
 
-.ol {
+ol {
     font-size: 15px;
+    margin: 0px 0px;
+}
+
+.titleandimage {
+    width: 500px;
+    padding: 10px;
+    background-color:white;
+    margin: 10px auto 0px;
+}
+
+.maintitle {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    margin: 10px 0px;
+    margin-top: 0px;
+}
+
+
+
+.recipeimage {
+    padding-right: 0px;
+    display:inline;
+}
+
+.description {
+    padding: 0px;
+}
+
+.ingredients {
+    padding: 0px;
+    margin: 0px 0px;
+}
+
+.instructions {
+    padding: 3px;
+}
+
+.descriptiontitle, .descriptiontext, .ingredientstitle, .ingredientstext, .instructionstitle, .instructionstext {
+    text-align: left;
+    background-color:white;
+}
+
+.descriptiontitle {
+    margin-bottom: 0px;
+    padding: 3px;
+}
+
+.descriptiontext {
+    margin-top: 0px;
+    padding: 3px;
+}
+
+.ingredientstitle {
+    margin: 0px 0px;
+    padding: 3px;
+}
+
+.ingredientstext {
+    margin: 0px 0px;
+}
+
+.instructionstitle {
+    margin: 10px 0px 0px;
+}
+
+.instructionstext {
+    margin: 0px 0px;
 }
