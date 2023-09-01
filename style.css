@@ -1,5 +1,6 @@
 html {
     background-color: #F8F0E3;
+    /* background-color: black; */
 }
 
 p {
@@ -12,11 +13,13 @@ ul, ol {
 
 ul {
     font-size: 25px;
+    padding-bottom: 5px;
 }
 
 ol {
     font-size: 15px;
     margin: 0px 0px;
+    padding-bottom: 5px;
 }
 
 .titleandimage {
@@ -41,13 +44,16 @@ ol {
     display:inline;
 }
 
+.description, .ingredients, .instructions {
+    margin-left: 10px;
+}
+
 .description {
     padding: 0px;
 }
 
 .ingredients {
     padding: 0px;
-    margin: 0px 0px;
 }
 
 .instructions {
@@ -59,22 +65,20 @@ ol {
     background-color:white;
 }
 
-.descriptiontitle {
-    margin-bottom: 0px;
+.descriptiontitle, .ingredientstitle, .instructionstitle {
     padding: 3px;
+    padding-left: 10px;
 }
 
-.descriptiontext {
-    margin-top: 0px;
-    padding: 3px;
+.ingredientstext, .instructionstext {
+    margin: 0px 0px;
+}
+
+.descriptiontitle {
+    margin-bottom: 0px;
 }
 
 .ingredientstitle {
-    margin: 0px 0px;
-    padding: 3px;
-}
-
-.ingredientstext {
     margin: 0px 0px;
 }
 
@@ -82,6 +86,15 @@ ol {
     margin: 10px 0px 0px;
 }
 
+.descriptiontext {
+    margin-top: 0px ;
+    padding: 3px 3px 5px;
+}
+
+.ingredientstext {
+
+}
+
 .instructionstext {
-    margin: 0px 0px;
+
 }
